@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "node",
+    "declaration": true,
+    "target": "es6",
+    "inlineSourceMap": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

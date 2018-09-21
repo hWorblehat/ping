@@ -1,0 +1,8 @@
+# NodeJS
+node_modules/
+
+# Lerna
+/lerna-debug.log
+
+# Atom
+.tags
