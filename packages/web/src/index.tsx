@@ -1,9 +1,12 @@
 import ReactDOM from 'react-dom';
-import React from 'react';
-import  *  as UI from '@ping/ui';
+import * as React from 'react';
+import * as PingUIModel from '@ping/ui-model';
+import * as PingUI from '@ping/ui-html';
 
-const message = {
-  content: "Hi! I'm an other message."
-};
+const convo: Array<PingUIModel.Message> = [
+  {content: "I'm the first message!"},
+  {content: "Hi! I'm an other message."},
+  {content: "This is a really long message, mainly pertaining to messages themselves. It exists to ensure that wrapping occurrs properly in the message display component."}
+]
 
-ReactDOM.render(<UI.Message message={message}/>, document.querySelector('#app'));
+ReactDOM.render(<PingUI.Conversation messages={convo}/>, document.querySelector('#app'));

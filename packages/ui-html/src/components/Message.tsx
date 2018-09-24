@@ -1,12 +1,12 @@
 import * as React from 'react';
 import './style.css'
 
-export const Message = ({message}: {message: {content: string}}) => {
+import { Message  as MessageModel } from '@ping/ui-model';
+
+export const Message = ({message}: {message: MessageModel}) => {
   return (
     <div className="ping-message">
       {message.content}
     </div>
   );
 }
-
-//TODO PropTypes

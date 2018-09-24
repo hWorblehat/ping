@@ -1,5 +1,5 @@
 {
-  "name": "@ping/ui",
+  "name": "@ping/ui-model",
   "version": "0.1.0",
   "description": "UI components for P!ng",
   "main": "lib/index.cjs.js",
@@ -19,18 +19,12 @@
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.1.0",
     "rollup": "^0.66.1",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-node-resolve": "^3.4.0",
-    "rollup-plugin-postcss": "^1.6.2",
     "typescript": "^3.0.3",
     "watch": "^1.0.2"
-  },
-  "dependencies": {
-    "@types/react": "^16.4.14",
-    "react": "^16.5.2"
   }
 }

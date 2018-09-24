@@ -31,7 +31,8 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
-    "@ping/ui": "^0.1.0",
+    "@ping/ui-html": "^0.1.0",
+    "@ping/ui-model": "^0.1.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   }

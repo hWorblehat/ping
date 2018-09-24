@@ -1,0 +1,11 @@
+
+/*
+Message component
+ */
+div.ping-message {
+  max-width: 50em;
+  display: inline-block;
+  background-color: #0099cc;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
